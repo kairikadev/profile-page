@@ -1,0 +1,67 @@
+:root {
+    --primary-color: #E5B299;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  }
+body {
+    margin: 60px auto;
+    max-width: 100%;
+  }
+h1 {
+    font-family: "Rock Salt";
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+
+p {
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    background-color: var(--secondary-color);
+}
+.wrapper {
+     
+    border-bottom: solid 1px black;
+}
+.primary-link {
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+.contact {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    
+}
+.about-me {
+    background-color:white;
+}
+.about-me-paragraph {
+    background-color: var(--primary-color);
+}
+.front-end {
+    color:grey;
+    text-align: center;
+}
+.navbar-brand {
+    font-family: "Rock Salt";
+    font-size: 17px;
+}
+.col-md-6 {
+    padding: 0 60px;
+    text-align: center;
+}
+
+@media (max-width:768px){
+    .navbar-brand{
+        font-size: 10px;
+    }
+}
