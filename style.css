@@ -20,22 +20,27 @@ h1 {
 
 p {
     text-align: center;
+    line-height: 30px;
 }
 img {
     max-width: 100%;
     height: auto;
     background-color: var(--secondary-color);
 }
-.wrapper {
+i {
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.hero {
      
     background-color: var(--primary-color);
-    padding:50px;
+    padding:100px 20px;
     box-shadow: var(--box-shadow);
 }
 .primary-link {
     border:solid #B4846C 1px;
     border-radius: 4px;
-    padding: 20px 15px;
+    padding: 10px 15px;
     text-decoration: none;
     text-transform: capitalize;
     background: white;
@@ -44,6 +49,9 @@ img {
   }
   .projects {
       color: var(--primary-color);
+  }
+  .project-description {
+      padding:80px 30px;
   }
   
 .contact {
@@ -76,6 +84,11 @@ img {
     display: flex;
     justify-content: space-between;
 }
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
 
 @media (max-width:768px){
     .navbar-brand{
@@ -86,5 +99,9 @@ img {
     }
     .img-projects {
         display: none;
+    }
+    .project-description{
+        padding:0;
+        margin-top: 0;
     }
 }
