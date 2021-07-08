@@ -75,7 +75,7 @@ i {
     font-size: 17px;
 }
 .col-md-6 {
-    padding: 0 60px;
+    padding: 0 inherit;
     text-align: center;
     
 }
@@ -119,6 +119,13 @@ i {
         padding-top: 10px;
     }
     strong {
-        font-size: 10px;
+        font-size: 15px;
+        font-weight: normal;
+    }
+    .about-section h2 {
+        font-weight: bold;
+    }
+    .greeting {
+        font-weight: normal;
     }
 }
