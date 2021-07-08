@@ -60,12 +60,7 @@ i {
     text-decoration: none;
     
 }
-.about-me {
-    background-color:white;
-}
-.about-me-paragraph {
-    background-color: var(--primary-color);
-}
+   
 .front-end {
     color:grey;
     text-align: center;
@@ -81,8 +76,18 @@ i {
     
 }
 .about-container {
-    display: flex;
-    justify-content: space-between;
+    padding:80px 50px;
+}
+
+.btn-branding {
+    border:solid #B4846C 1px;
+    border-radius: 4px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: white;
+    box-shadow: var(--box-shadow);
+    color:#B4846C;  
 }
 .social-media {
     display: flex;
@@ -103,5 +108,11 @@ i {
     .project-description{
         padding:0;
         margin-top: 0;
+    }
+    .about-section {
+        padding:0;
+    }
+    .about-container {
+        padding-top: 10px;
     }
 }
