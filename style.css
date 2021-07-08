@@ -19,7 +19,11 @@ h1 {
 h2 {
     font-family: "Railway";
 }
-
+h3 {
+    font-family: "Railway";
+    font-weight: bold;
+    text-align: center;
+}
 
 p {
     text-align: center;
@@ -79,7 +83,7 @@ i {
     text-align: center;
     
 }
-.about-container {
+.content-container {
     padding:80px 50px;
 }
 
@@ -112,17 +116,17 @@ i {
         padding:0;
         margin-top: 0;
     }
-    .about-section {
+    .content {
         padding:0;
     }
-    .about-container {
+    .content-container {
         padding-top: 10px;
     }
     strong {
         font-size: 15px;
         font-weight: normal;
     }
-    .about-section h2 {
+    .content h2 {
         font-weight: bold;
     }
     .greeting {
