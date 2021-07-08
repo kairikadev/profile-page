@@ -16,11 +16,15 @@ h1 {
     line-height: 2;
     font-size: 50px;
 }
+h2 {
+    font-family: "Railway";
+}
 
 
 p {
     text-align: center;
     line-height: 30px;
+    font-family: "Railway";
 }
 img {
     max-width: 100%;
@@ -80,14 +84,13 @@ i {
 }
 
 .btn-branding {
-    border:solid #B4846C 1px;
     border-radius: 4px;
     padding: 10px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    background: white;
+    background:var(--primary-color);
     box-shadow: var(--box-shadow);
-    color:#B4846C;  
+    color:white;  
 }
 .social-media {
     display: flex;
@@ -114,5 +117,8 @@ i {
     }
     .about-container {
         padding-top: 10px;
+    }
+    strong {
+        font-size: 10px;
     }
 }
