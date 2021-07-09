@@ -101,6 +101,15 @@ i {
     justify-content: center;
     margin-top: 100px;
 }
+.get-in-touch {
+    font-family: "Raleway";
+}
+.content h3 {
+    font-weight: normal;
+}
+.content h1 {
+    font-weight: bold;
+}
 
 @media (max-width:768px){
     .navbar-brand{
