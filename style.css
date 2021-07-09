@@ -38,6 +38,7 @@ img {
 i {
     margin-right: 20px;
     margin-left: 10px;
+    background-color: var(--secondary-color);
 }
 nav {
     padding:30px;
@@ -56,9 +57,13 @@ nav a {
     text-decoration: none;
     color:black;
 }
-nav a:hover, nav li.active a {
+nav a:hover, nav li.active a , i{
     color:#B4846C;
 }
+footer {
+    margin:60px;
+}
+
 .hero {
      
     background-color: var(--primary-color);
@@ -118,10 +123,16 @@ nav a:hover, nav li.active a {
     box-shadow: var(--box-shadow);
     color:white;  
 }
+.footer-email{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: "Raleway";
+    
+}
 .social-media {
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+    
+    margin-top: 50px;
 }
 .get-in-touch {
     font-family: "Raleway";
